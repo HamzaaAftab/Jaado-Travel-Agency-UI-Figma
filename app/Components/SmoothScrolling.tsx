@@ -10,7 +10,7 @@ interface SmoothScrollingProps {
 
 function SmoothScrolling({ children }: SmoothScrollingProps) {
   return (
-    <ReactLenis root options={{ lerp: 0.1, duration: 2, smoothTouch: true, smoothWheel: true }}>
+    <ReactLenis root options={{ lerp: 0.1, duration: 2, smoothWheel: true }}>
       {children}
     </ReactLenis>
   );
